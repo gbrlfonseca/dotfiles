@@ -7,9 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "ssh_connections": [],
   "disable_ai": true,
   "minimap": {
-    "show": "never"
+    "show": "always"
   },
   "inlay_hints": {
     "enabled": true,
@@ -29,7 +30,7 @@
     }
   },
   "base_keymap": "VSCode",
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Catppuccin Frappé",
   "telemetry": {
     "diagnostics": true,
     "metrics": false
@@ -44,7 +45,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Tokyo Night"
+    "dark": "Catppuccin Mocha (Blur) [Light]"
   },
   "terminal": {
     "font_family": "FiraCode Nerd Font",
