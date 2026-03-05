@@ -30,7 +30,7 @@
     }
   },
   "base_keymap": "VSCode",
-  "icon_theme": "Catppuccin Frappé",
+  "icon_theme": "Material Icon Theme",
   "telemetry": {
     "diagnostics": true,
     "metrics": false
@@ -42,11 +42,7 @@
   "tab_size": 2,
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Catppuccin Mocha (Blur) [Light]"
-  },
+  "theme": "Tokyo Night Moon",
   "terminal": {
     "font_family": "FiraCode Nerd Font",
     "line_height": "standard"
