@@ -8,12 +8,12 @@
 // command palette
 {
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "ssh_connections": [],
   "disable_ai": true,
   "minimap": {
-    "show": "always"
+    "show": "always",
   },
   "inlay_hints": {
     "enabled": true,
@@ -29,14 +29,14 @@
       "alt": false,
       "shift": false,
       "platform": false,
-      "function": false
-    }
+      "function": false,
+    },
   },
   "base_keymap": "VSCode",
   "icon_theme": "Material Icon Theme",
   "telemetry": {
     "diagnostics": true,
-    "metrics": false
+    "metrics": false,
   },
   "vim_mode": true,
   "autosave": "on_focus_change",
@@ -45,9 +45,14 @@
   "tab_size": 2,
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "theme": "Tokyo Night Moon",
+  "theme": "Catppuccin Macchiato (Blur)",
   "terminal": {
     "font_family": "FiraCode Nerd Font",
-    "line_height": "standard"
-  }
+    "line_height": "standard",
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["ty"],
+    },
+  },
 }
