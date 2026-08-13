@@ -1,4 +1,4 @@
-font-family = "FiraCode Nerd Font"
+font-family = "GoogleSansCode Nerd Font"
 
 background-opacity = 0.44
 background-blur = true
@@ -7,4 +7,3 @@ keybind=f11=toggle_fullscreen
 
 theme = TokyoNight
 
-window-decoration = server
