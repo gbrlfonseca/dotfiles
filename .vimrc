@@ -7,7 +7,5 @@ set shiftwidth=2
 set noexpandtab
 set number
 
-" Theme
-
 set termguicolors
-colorscheme catppuccin_mocha
+colorscheme catppuccin
