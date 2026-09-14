@@ -4,7 +4,7 @@ blur = true
 decorations_theme_variant = "Dark"
 
 [font]
-normal = { family = "GoogleSansCode Nerd Font", style = "Regular" }
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
 size = 12
 
 [keyboard]
