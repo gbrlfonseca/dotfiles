@@ -1,6 +1,6 @@
 font-family = "FiraCode Nerd Font"
 
-background-opacity = 0.44
+background-opacity = 0.66
 background-blur = true
 
 keybind=f11=toggle_fullscreen
