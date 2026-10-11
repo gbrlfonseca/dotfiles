@@ -1,4 +1,13 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "ollama",
+      "model": "gemma4:e2b-it-q4_K_M",
+      "enable_thinking": true
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "format_on_save": "on",
   "git_panel": {
     "dock": "left",
@@ -41,7 +50,7 @@
   "tab_size": 2,
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "theme": "Tokyo Night Storm",
+  "theme": "One Dark Pro",
   "terminal": {
     "font_family": "FiraCode Nerd Font",
     "line_height": "standard",
@@ -52,6 +61,31 @@
     },
     "CSharp": {
       "formatter": "language_server",
+    },
+  },
+  "lsp": {
+    "zls": {
+      "binary": {
+        // omit the following line if `zls` is in your PATH
+        "path": "/opt/zls/zig-out/bin/zls",
+      },
+      // There are two ways to set config options:
+      //   - edit your `zls.json` that applies to any editor that uses ZLS
+      //   - set in-editor config options with the `settings` field below.
+      //
+      // Further information on how to configure ZLS:
+      // https://zigtools.org/zls/configure/
+      "settings": {
+        "zls": {
+          // Whether to enable build-on-save diagnostics
+          //
+          // Further information about build-on save:
+          // https://zigtools.org/zls/guides/build-on-save/
+          "enable_build_on_save": true,
+
+          // omit the following line if `zig` is in your PATH
+        },
+      },
     },
   },
   "dap": {
