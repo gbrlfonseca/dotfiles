@@ -3,6 +3,10 @@ font-family = "FiraCode Nerd Font"
 background-opacity = 0.44
 background-blur = true
 
+
+window-width = 105
+window-height = 33
+
 keybind=f11=toggle_fullscreen
 
-theme = TokyoNight Moon
+theme = TokyoNight

@@ -40,7 +40,7 @@
   "tab_size": 2,
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "theme": "One Dark Pro",
+  "theme": "Tokyo Night",
   "terminal": {
     "font_family": "FiraCode Nerd Font",
     "line_height": "standard",
@@ -76,12 +76,6 @@
           // omit the following line if `zig` is in your PATH
         },
       },
-    },
-  },
-  "dap": {
-    "netcoredbg": {
-      "binary": "/usr/bin/netcoredbg",
-      "args": ["--interpreter=vscode"],
     },
   },
 }
