@@ -9,4 +9,7 @@ window-height = 33
 
 keybind=f11=toggle_fullscreen
 
+working-directory = home
+window-inherit-working-directory = false
+
 theme = TokyoNight
