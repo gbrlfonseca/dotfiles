@@ -13,3 +13,5 @@ working-directory = home
 window-inherit-working-directory = false
 
 theme = TokyoNight
+
+
